@@ -3,6 +3,7 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 30px;
+
 }
 
 header{
@@ -16,8 +17,15 @@ h1, h2{
     font-family: 'Caveat Brush', cursive;
 }
 
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+/*header styles */
+/* write your comment here */
+
 header h1{
-    color: white;
+    color: antiquewhite;
     font-size: 50px;
     
 }
@@ -25,7 +33,7 @@ header h1{
 header img{
     border-radius: 170px;
     width: 300px;
-    border: 20px solid white;
+    border: 20px solid antiquewhite;
 }
 
 main{
@@ -55,7 +63,7 @@ a:hover{
 footer{
     background-color: #354D93;
     text-align: center;
-    color: white;
+    color: antiquewhite;
     padding: 50px;
 }
 
@@ -76,4 +84,7 @@ p.caption{
     color: #999999;
     font-style: italic;
     margin-top: 0;
+}
+.container1{
+    background-size: cover;
 }
